@@ -24,7 +24,7 @@ class MediaGrid extends StatelessWidget {
               MaterialPageRoute(
                 builder: (context) => MediaDetailScreen(
                   mediaUrl: images[index], 
-                  caption: 'Caption for image $index',
+                  caption: 'Caption for post $index',
                   userId: 'user_$index',
                   createdAt: DateTime.now(),
                   tag: 'Tag_$index',
